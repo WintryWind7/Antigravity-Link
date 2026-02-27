@@ -1,0 +1,14 @@
+{
+  "name": "antigravity-link",
+  "version": "2.0.0",
+  "description": "双层桥接服务：通过 CDP 协议连接 Antigravity IDE，提供 HTTP/WebSocket API 供外部软件控制",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["cdp", "devtools", "antigravity", "remote-control", "bridge"],
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
